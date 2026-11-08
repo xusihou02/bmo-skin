@@ -30,3 +30,6 @@ html, body { background: transparent !important; margin: 0; overflow: hidden; }
   box-shadow: inset 0 0 0 2px #424847;
 }
 .ds4 .stick.pressed { background: #64ecbc !important; box-shadow: inset 0 0 0 3px #d9ffb8; }
+/* Align the live stick caps with the BMO artwork at its native size. */
+.ds4 .stick.left { margin-left: 6px; margin-top: 8px; }
+.ds4 .stick.right { margin-left: -6px; margin-top: 8px; }
